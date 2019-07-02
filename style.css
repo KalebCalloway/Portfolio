@@ -1,69 +1,45 @@
-body {
-  background-color: steelblue;
-  color: black;
-  max-width: 100%;
-  font-family: Roboto;
-  font-size: larger;
-  padding-top: 20px;
-}
-
 header {
-  align-items: center;
-  margin: 0 auto;
-}
-
-#header-image img {
-  max-width: 80%;
-  height: auto;
-}
-
-#header-image {
+  min-height: 100vh;
+  margin-top: 55px;
+  background-image: url('https://gamewith-en.akamaized.net/article/thumbnail/rectangle/619.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  color: white;
+}
+
+main {
+  scroll-behavior: smooth;
 }
 
 section {
-  max-width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  align-items: center;
 }
 
-h1, h2 {
+.row {
+  margin: 0 !important;
+}
+
+#portfolio {
+  background-color: red;
+    color: white;
+  justify-content: center;
+}
+
+.portfolio-item {
+  width: 30%;
+  margin: 10px;
+}
+
+#about {
+  background-color: green;
   color: white;
-  font-family: "Playfair Display";
-  margin: 0;
 }
 
-p {
-  background-color: lightblue;
-  padding: 20px;
+#about img {
+  border-radius: 50%;
 }
 
-a {
-  color: gold;
-  text-decoration: none;
-}
-
-a:hover {
-  color: darkorange;
-  text-decoration: underline;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-#wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
